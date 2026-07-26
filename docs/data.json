@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-25 03:51:08 UTC",
-    "data_date": "2026-07-25",
+    "generated_at": "2026-07-26 04:08:14 UTC",
+    "data_date": "2026-07-26",
     "warnings": [
       "ETF BTC: SourceError: https://r.jina.ai/https://farside.co.uk/btc/ failed after 2 tries: HTTP 403",
       "ETF ETH: SourceError: https://r.jina.ai/https://farside.co.uk/eth/ failed after 2 tries: HTTP 403"
@@ -18,45 +18,49 @@
     "BTC": {
       "symbol": "BTCUSDT",
       "name": "Bitcoin",
-      "price": 64056.01,
-      "change_24h": -0.0013093235592958052,
-      "change_7d": -0.01200307491938668,
-      "change_30d": 0.07127822189517352,
+      "price": 64525.03,
+      "change_24h": 0.002330563106796024,
+      "change_7d": -0.003051641669192917,
+      "change_30d": 0.07367655802002315,
       "technical": {
-        "rsi14_d": 49.190124366364195,
-        "rsi14_w": 39.07238187121177,
-        "ma20": 64268.063500000004,
-        "ma50": 63222.32900000001,
-        "ma100": 69819.69319999998,
-        "ma200": 72301.83330000003,
-        "ma200w": 63323.7948,
-        "macd": 389.56734582574427,
-        "macd_signal": 329.0064338042786,
-        "macd_hist": 60.5609120214657,
-        "boll_mid": 64268.063500000004,
-        "boll_up": 66370.0811023647,
-        "boll_low": 62166.04589763531,
-        "boll_pctb": 0.4495595327647472,
+        "rsi14_d": 51.33582467746417,
+        "rsi14_w": 39.507532167377626,
+        "ma20": 64308.1635,
+        "ma50": 63301.517000000014,
+        "ma100": 69697.41339999999,
+        "ma200": 72169.23260000003,
+        "ma200w": 63326.13985000001,
+        "macd": 373.77415058704355,
+        "macd_signal": 342.0314164770706,
+        "macd_hist": 31.742734109972957,
+        "boll_mid": 64308.1635,
+        "boll_up": 66407.7651121948,
+        "boll_low": 62208.5618878052,
+        "boll_pctb": 0.5516446783857487,
         "mayer": {
-          "mayer": 0.8859527770784752,
-          "ma200": 72301.83330000003,
+          "mayer": 0.8940794806234363,
+          "ma200": 72169.23260000003,
           "zone": "偏弱 · 趋势之下"
         }
       },
       "derivatives": {
         "funding": {
-          "rate": 1.93610418095e-05,
+          "rate": -7.1599516632e-06,
           "next_rate": null,
           "source": "OKX"
         },
         "open_interest": {
-          "oi_contracts": 3216174.8300000136,
-          "oi_ccy": 32161.748300000138,
+          "oi_contracts": 3193303.2000000193,
+          "oi_ccy": 31933.032000000192,
           "source": "OKX"
         },
         "long_short": {
-          "ratio": 1.77,
+          "ratio": 1.73,
           "history": [
+            {
+              "ts": 1784995200000,
+              "ratio": 1.73
+            },
             {
               "ts": 1784908800000,
               "ratio": 1.77
@@ -172,10 +176,6 @@
             {
               "ts": 1782489600000,
               "ratio": 1.86
-            },
-            {
-              "ts": 1782403200000,
-              "ratio": 2.05
             }
           ],
           "source": "OKX"
@@ -185,7 +185,7 @@
         {
           "label": "RSI(日)",
           "state": "neutral",
-          "value": "49",
+          "value": "51",
           "note": "中性"
         },
         {
@@ -197,25 +197,25 @@
         {
           "label": "价 vs MA200",
           "state": "bear",
-          "value": "-11.4%",
+          "value": "-10.6%",
           "note": "跌破年线"
         },
         {
           "label": "MACD柱",
           "state": "bull",
-          "value": "+61",
+          "value": "+32",
           "note": "动能向上"
         },
         {
           "label": "资金费率",
-          "state": "neutral",
-          "value": "0.002%",
-          "note": "正常区间"
+          "state": "bull",
+          "value": "-0.001%",
+          "note": "空头付费，情绪偏空（常见局部底）"
         },
         {
           "label": "多空账户比",
           "state": "neutral",
-          "value": "1.77",
+          "value": "1.73",
           "note": "未见极端"
         }
       ]
@@ -223,45 +223,49 @@
     "ETH": {
       "symbol": "ETHUSDT",
       "name": "Ethereum",
-      "price": 1857.09,
-      "change_24h": -0.0023369004641569102,
-      "change_7d": -0.0029635833588351757,
-      "change_30d": 0.18448948872333903,
+      "price": 1881.6,
+      "change_24h": 0.0035788766274287287,
+      "change_7d": 0.005004726983329988,
+      "change_30d": 0.19188182532242126,
       "technical": {
-        "rsi14_d": 54.001198479809894,
-        "rsi14_w": 40.581709700797184,
-        "ma20": 1842.2535,
-        "ma50": 1742.8654000000001,
-        "ma100": 1966.9950999999994,
-        "ma200": 2147.1962000000017,
-        "ma200w": 2478.194450000001,
-        "macd": 37.7728734232096,
-        "macd_signal": 38.07116026987764,
-        "macd_hist": -0.2982868466680344,
-        "boll_mid": 1842.2535,
-        "boll_up": 1959.3566909513997,
-        "boll_low": 1725.1503090486003,
-        "boll_pctb": 0.5633479748906132,
+        "rsi14_d": 56.80077877196552,
+        "rsi14_w": 41.29691556289461,
+        "ma20": 1847.2454999999998,
+        "ma50": 1749.4596000000001,
+        "ma100": 1961.7991,
+        "ma200": 2140.8496000000014,
+        "ma200w": 2478.3170000000005,
+        "macd": 37.30944210497523,
+        "macd_signal": 38.14600752008805,
+        "macd_hist": -0.8365654151128155,
+        "boll_mid": 1847.2454999999998,
+        "boll_up": 1964.410184862803,
+        "boll_low": 1730.0808151371966,
+        "boll_pctb": 0.6466077429398986,
         "mayer": {
-          "mayer": 0.8648906886105696,
-          "ma200": 2147.1962000000017,
+          "mayer": 0.8789034035833244,
+          "ma200": 2140.8496000000014,
           "zone": "偏弱 · 趋势之下"
         }
       },
       "derivatives": {
         "funding": {
-          "rate": 6.976901289e-05,
+          "rate": -8.50758904e-08,
           "next_rate": null,
           "source": "OKX"
         },
         "open_interest": {
-          "oi_contracts": 7234699.340000022,
-          "oi_ccy": 723469.9340000022,
+          "oi_contracts": 7521059.46000002,
+          "oi_ccy": 752105.9460000021,
           "source": "OKX"
         },
         "long_short": {
-          "ratio": 1.83,
+          "ratio": 1.86,
           "history": [
+            {
+              "ts": 1784995200000,
+              "ratio": 1.86
+            },
             {
               "ts": 1784908800000,
               "ratio": 1.83
@@ -377,10 +381,6 @@
             {
               "ts": 1782489600000,
               "ratio": 2.55
-            },
-            {
-              "ts": 1782403200000,
-              "ratio": 3.25
             }
           ],
           "source": "OKX"
@@ -390,7 +390,7 @@
         {
           "label": "RSI(日)",
           "state": "neutral",
-          "value": "54",
+          "value": "57",
           "note": "中性"
         },
         {
@@ -402,43 +402,38 @@
         {
           "label": "价 vs MA200",
           "state": "bear",
-          "value": "-13.5%",
+          "value": "-12.1%",
           "note": "跌破年线"
         },
         {
           "label": "MACD柱",
           "state": "bear",
-          "value": "-0",
+          "value": "-1",
           "note": "动能向下"
         },
         {
           "label": "资金费率",
-          "state": "neutral",
-          "value": "0.007%",
-          "note": "正常区间"
+          "state": "bull",
+          "value": "-0.000%",
+          "note": "空头付费，情绪偏空（常见局部底）"
         },
         {
           "label": "多空账户比",
           "state": "neutral",
-          "value": "1.83",
+          "value": "1.86",
           "note": "未见极端"
         }
       ]
     }
   },
   "eth_btc": {
-    "ratio": 0.028991659018412167,
-    "change_30d": 0.10567867853029478
+    "ratio": 0.029160776833424176,
+    "change_30d": 0.11009392579119104
   },
   "sentiment": {
-    "value": 27,
+    "value": 26,
     "label": "Fear",
     "history": [
-      {
-        "ts": 1777248000,
-        "value": 47,
-        "label": "Neutral"
-      },
       {
         "ts": 1777334400,
         "value": 33,
@@ -883,66 +878,71 @@
         "ts": 1784937600,
         "value": 27,
         "label": "Fear"
+      },
+      {
+        "ts": 1785024000,
+        "value": 26,
+        "label": "Fear"
       }
     ],
     "source": "alternative.me"
   },
   "onchain": {
-    "mvrv": 1.2237,
-    "mvrvZscore": 0.4218,
-    "realizedPrice": 52430.87,
-    "nupl": 0.1828,
-    "sthMvrv": 0.94,
-    "sthRealizedPrice": 68161.5,
-    "puellMultiple": 0.7925,
-    "sopr": 0.9941,
-    "date": "2026-07-24",
+    "mvrv": 1.2267,
+    "mvrvZscore": 0.3894,
+    "realizedPrice": 52470.83,
+    "nupl": 0.1848,
+    "sthMvrv": 0.95,
+    "sthRealizedPrice": 68104.84,
+    "puellMultiple": 0.7043,
+    "sopr": 1.0084,
+    "date": "2026-07-25",
     "stale_fields": [],
     "signals": [
       {
         "label": "价 vs 短期持有者成本",
         "state": "bear",
-        "value": "$68,162",
+        "value": "$68,105",
         "note": "价在 STH 成本之下：短期持有者整体亏损，常见恐慌/筑底区"
       },
       {
         "label": "STH-MVRV",
         "state": "bull",
-        "value": "0.94",
+        "value": "0.95",
         "note": "短期持有者亏损，抛压释放中"
       },
       {
         "label": "SOPR",
-        "state": "bull",
-        "value": "0.994",
-        "note": "整体在亏损卖出（投降）"
+        "state": "neutral",
+        "value": "1.008",
+        "note": "整体获利了结"
       }
     ]
   },
   "cycle": {
     "halving_date": "2024-04-20",
-    "days_since_halving": 826,
-    "phase_pct": 0.5665294924554184,
-    "next_halving_eta_days": 632,
+    "days_since_halving": 827,
+    "phase_pct": 0.5672153635116598,
+    "next_halving_eta_days": 631,
     "pi_cycle": {
-      "ma111": 70097.88972972971,
-      "ma350x2": 172049.0967428571,
-      "ratio": 0.40742957130717944,
+      "ma111": 70061.76684684683,
+      "ma350x2": 171737.9539428571,
+      "ratio": 0.40795738646192736,
       "triggered": false
     },
     "mayer": {
-      "mayer": 0.8859527770784752,
-      "ma200": 72301.83330000003,
+      "mayer": 0.8940794806234363,
+      "ma200": 72169.23260000003,
       "zone": "偏弱 · 趋势之下"
     },
-    "mvrvZscore": 0.4218,
-    "nupl": 0.1828,
-    "puell": 0.7925,
-    "realizedPrice": 52430.87,
+    "mvrvZscore": 0.3894,
+    "nupl": 0.1848,
+    "puell": 0.7043,
+    "realizedPrice": 52470.83,
     "zone": "周期早中段（估值偏低-中性）",
     "state": "bull",
     "reasons": [
-      "MVRV-Z=0.42",
+      "MVRV-Z=0.39",
       "Mayer=0.89（偏弱 · 趋势之下）",
       "Pi Cycle 未触发(比值0.41)",
       "NUPL=0.18"
@@ -958,9 +958,9 @@
       "window_start_date": "2026-06-06",
       "median_date": "2026-09-26",
       "window_end_date": "2026-10-31",
-      "days_to_window_start": -49,
-      "days_to_median": 63,
-      "days_to_window_end": 98,
+      "days_to_window_start": -50,
+      "days_to_median": 62,
+      "days_to_window_end": 97,
       "phase": "within"
     },
     "historical_cycles": [
@@ -996,8 +996,8 @@
     "ETH": {}
   },
   "narrative": {
-    "text": "① 短期偏震荡略承压。BTC价格64056，日线RSI 49中性，周线RSI仅39显疲弱；MA50<MA200维持空头排列，价格较MA200低11.4%，MACD柱转正是唯一亮点。关键在于价格仍处于STH成本68161之下（sthMVRV=0.94），套牢盘构成上方压力，反弹乏力。资金费率0.002%平淡，SOPR=0.994低于1说明抛售多为割肉。ETH同构，30日涨18%强于BTC，ETH/BTC比值月涨10.6%，但同样受制于年线。ETF数据缺失，无法确认场外增量。\n\n② 周期早中段、估值偏低。MVRV-Z=0.42、NUPL=0.18均处低位，Mayer=0.89在1以下反映趋势偏弱，Puell=0.79矿工端不过热，Pi Cycle未触发（0.41）。减半后826天、周期进度约57%，远未到过热区，下行空间有限但需时间修复。\n\n③ 关键价位：BTC上方压力为STH成本68161，其上是年线MA200的72302；下方支撑先看MA50的63222，强支撑为Realized Price 52431。ETH参考年线2147为压力、MA50的1743为支撑。\n\n整体倾向：估值不贵但短期受套牢盘压制，中性偏耐心，等收复STH成本再谈趋势反转。（研究参考，非投资建议）",
+    "text": "①短期震荡偏弱。BTC价格64525在STH成本68104下方，说明短期持有者整体浮亏，此处构成上方压力，反弹进入这一区间易遭抛压；日线RSI 51中性，MA50<MA200呈空头排列，价格低于年线10.6%。利好是资金费率转负、MACD柱翻红，空头拥挤反而有利于修复。ETH相对更强，30日+19%、ETH/BTC比值月内回升11%，但同样承压于年线。ETF数据缺失，暂无法验证场外增量。\n\n②周期早中段、估值偏低偏中性。MVRV-Z仅0.39、Mayer 0.89、Puell 0.70均处低位，Pi Cycle未触发，NUPL 0.18表明市场刚脱离深度恐惧。减半后827天、进度约57%，整体远未过热，属于风险相对可控、但趋势尚未确认的位置。\n\n③关键价位：上方压力看STH成本68104，站稳方能扭转短期弱势；下方支撑首看MA50约63300，失守则回落至Realized Price 52470这一全市场成本线。ETH对应关注MA50约1749与年线2140。\n\n整体倾向：中期估值不贵、短期承压于STH成本，震荡蓄势、下探不改中长期偏多结构。（研究参考，非投资建议）",
     "model": "claude-opus-4-8",
-    "generated_at": "2026-07-25 03:51 UTC"
+    "generated_at": "2026-07-26 04:08 UTC"
   }
 }
